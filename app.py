@@ -58,7 +58,8 @@ def build_content_model(movies):
     indices = pd.Series(movies.index, index=movies["title"]).drop_duplicates()
     return cosine_sim, indices
 
-cosine_sim, indices = build_content_model(movies)
+cosine_sim = None
+indices = None
 
 # --------------------------------------------------
 # Feature functions
@@ -122,6 +123,9 @@ with tab1:
     st.caption("Select **one movie** you like. Recommendations are based on **genre similarity**.")
 
     movie_title = st.selectbox("Choose a movie", sorted(movies["title"].unique()))
+    if cosine_sim is None:
+        cosine_sim, indices = build_content_model(movies)
+
 
     if st.button("Recommend similar movies"):
         idx = indices[movie_title]
@@ -140,6 +144,9 @@ with tab1:
             if show_trailer:
                 st.markdown(f"[▶️ Watch trailer]({trailer_link(title)})")
             st.divider()
+            
+    
+
 
 # --------------------------------------------------
 # TAB 2: Popularity-based (WITH GENRE + SORT OPTION)
@@ -245,6 +252,9 @@ with tab3:
         sorted(movies["title"].unique()),
         max_selections=5
     )
+    if cosine_sim is None:
+        cosine_sim, indices = build_content_model(movies)
+
 
     if st.button("Get XGBoost recommendations"):
         if not liked_movies:
