@@ -14,6 +14,7 @@ This project is an interactive Movie Recommender System built with Streamlit, co
 Streamlit App:
 ### https://movie-recommender-app-moein-gazestani.streamlit.app/
 
+
 ## 🧩 Features
 ### 🎞 Similar Movies
 
@@ -22,6 +23,7 @@ Select a movie you like
 Get recommendations based on genre similarity
 
 Optional YouTube trailer links
+
 
 ### 🔥 Popular Movies
 
@@ -32,6 +34,7 @@ Sort by:
 Most Rated
 
 Newly Released
+
 
 ### 🤖 Hybrid Recommendations (XGBoost)
 
@@ -47,6 +50,7 @@ Popularity score
 
 Interactive 👍 / 👎 feedback buttons
 
+
 ## 🛠️ Tools
 
 Python
@@ -58,6 +62,7 @@ Pandas / NumPy
 Scikit-learn
 
 XGBoost
+
 
 ### ⚠️ Notes
 
