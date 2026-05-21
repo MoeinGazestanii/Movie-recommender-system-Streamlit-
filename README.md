@@ -1,3 +1,7 @@
+## 🚀 Live Demo
+Streamlit App:
+### https://movie-recommender-app-moein-gazestani.streamlit.app/
+
 # 🎬 Movie Recommender System (Streamlit App with Live Demo)
 
 This project is an interactive Movie Recommender System built with Streamlit, combining:
@@ -9,10 +13,6 @@ This project is an interactive Movie Recommender System built with Streamlit, co
 ### 🤖 Hybrid XGBoost model (experimental)
 
 #### The app allows users to explore movies, get recommendations, and interact with different recommendation strategies.
-
-## 🚀 Live Demo
-Streamlit App:
-### https://movie-recommender-app-moein-gazestani.streamlit.app/
 
 
 ## 🧩 Features
