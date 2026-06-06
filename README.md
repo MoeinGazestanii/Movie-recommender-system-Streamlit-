@@ -4,6 +4,11 @@ Streamlit App:
 
 # 🎬 Movie Recommender System (Streamlit App with Live Demo)
 
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/d83ab611-f2ab-402e-a8aa-8fee7b052c82" width="100%" controls></video>
+</p>
+
+
 This project is an interactive Movie Recommender System built with Streamlit, combining:
 
 ### 🎞 Content-based filtering (genre similarity)
