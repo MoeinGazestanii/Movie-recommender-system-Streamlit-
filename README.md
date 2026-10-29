@@ -20,7 +20,7 @@ This project is an interactive Movie Recommender System built with Streamlit, co
 #### The app allows users to explore movies, get recommendations, and interact with different recommendation strategies.
 
 
-## 🧩 Features
+##  Features
 ### 🎞 Similar Movies
 
 Select a movie you like
@@ -56,7 +56,7 @@ Popularity score
 Interactive 👍 / 👎 feedback buttons
 
 
-## 🛠️ Tools
+##  Tools
 
 Python
 
