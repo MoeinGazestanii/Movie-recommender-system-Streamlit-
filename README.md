@@ -3,7 +3,7 @@ Streamlit App:
 ### https://movie-recommender-app-moein-gazestani.streamlit.app/
 
 # 🎬 Movie Recommender System (Streamlit App with Live Demo)
-
+#### You can watch a short video demonstration of the website in action below:
 <p align="center">
   <video src="https://github.com/user-attachments/assets/d83ab611-f2ab-402e-a8aa-8fee7b052c82" width="100%" controls></video>
 </p>
@@ -11,11 +11,11 @@ Streamlit App:
 
 This project is an interactive Movie Recommender System built with Streamlit, combining:
 
-### 🎞 Content-based filtering (genre similarity)
+###  Content-based filtering (genre similarity)
 
-### 🔥 Popularity-based recommendations
+###  Popularity-based recommendations
 
-### 🤖 Hybrid XGBoost model (experimental)
+###  Hybrid XGBoost model (experimental)
 
 #### The app allows users to explore movies, get recommendations, and interact with different recommendation strategies.
 
